@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jul  4 09:51:23 2025
+# Process ID         : 29360
+# Current directory  : C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.runs/design_2_processing_system7_0_0_synth_1
+# Command line       : vivado.exe -log design_2_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_processing_system7_0_0.tcl
+# Log file           : C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.runs/design_2_processing_system7_0_0_synth_1/design_2_processing_system7_0_0.vds
+# Journal file       : C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.runs/design_2_processing_system7_0_0_synth_1\vivado.jou
+# Running On         : LAPTOP-JP12RQ9T
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12650H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16831 MB
+# Swap memory        : 16831 MB
+# Total Virtual      : 33663 MB
+# Available Virtual  : 7625 MB
+#-----------------------------------------------------------
+source design_2_processing_system7_0_0.tcl -notrace

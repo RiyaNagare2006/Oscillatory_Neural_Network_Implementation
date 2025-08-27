@@ -1,0 +1,1017 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Sun Aug 24 16:22:07 2025
+| Host         : LAPTOP-JP12RQ9T running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_2_wrapper_drc_routed.rpt -pb design_2_wrapper_drc_routed.pb -rpx design_2_wrapper_drc_routed.rpx
+| Design       : design_2_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 193
++-----------+----------+-------------------+--------+
+| Rule      | Severity | Description       | Checks |
++-----------+----------+-------------------+--------+
+| PDRC-153  | Warning  | Gated clock check | 192    |
+| RTSTAT-10 | Warning  | No routable loads | 1      |
++-----------+----------+-------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[0]_LDC_i_1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[1]_LDC_i_1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[2]_LDC_i_1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[3]_LDC_i_1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[0].phase_reg_inst/phi_out_reg[3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[0]_LDC_i_1__9_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[0]_LDC_i_1__9/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[0]_LDC_i_1__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[1]_LDC_i_1__9_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[1]_LDC_i_1__9/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[1]_LDC_i_1__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[2]_LDC_i_1__9_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[2]_LDC_i_1__9/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[2]_LDC_i_1__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[3]_LDC_i_1__9_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[3]_LDC_i_1__9/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[10].phase_reg_inst/phi_out_reg[3]_LDC_i_1__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[0]_LDC_i_1__10_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[0]_LDC_i_1__10/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[0]_LDC_i_1__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[1]_LDC_i_1__10_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[1]_LDC_i_1__10/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[1]_LDC_i_1__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[2]_LDC_i_1__10_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[2]_LDC_i_1__10/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[2]_LDC_i_1__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[3]_LDC_i_1__10_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[3]_LDC_i_1__10/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[11].phase_reg_inst/phi_out_reg[3]_LDC_i_1__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[0]_LDC_i_1__11_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[0]_LDC_i_1__11/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[0]_LDC_i_1__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[1]_LDC_i_1__11_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[1]_LDC_i_1__11/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[1]_LDC_i_1__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[2]_LDC_i_1__11_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[2]_LDC_i_1__11/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[2]_LDC_i_1__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[3]_LDC_i_1__11_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[3]_LDC_i_1__11/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[12].phase_reg_inst/phi_out_reg[3]_LDC_i_1__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[0]_LDC_i_1__12_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[0]_LDC_i_1__12/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[0]_LDC_i_1__12. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[1]_LDC_i_1__12_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[1]_LDC_i_1__12/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[1]_LDC_i_1__12. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[2]_LDC_i_1__12_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[2]_LDC_i_1__12/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[2]_LDC_i_1__12. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[3]_LDC_i_1__12_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[3]_LDC_i_1__12/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[13].phase_reg_inst/phi_out_reg[3]_LDC_i_1__12. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[0]_LDC_i_1__13_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[0]_LDC_i_1__13/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[0]_LDC_i_1__13. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[1]_LDC_i_1__13_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[1]_LDC_i_1__13/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[1]_LDC_i_1__13. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[2]_LDC_i_1__13_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[2]_LDC_i_1__13/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[2]_LDC_i_1__13. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[3]_LDC_i_1__13_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[3]_LDC_i_1__13/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[14].phase_reg_inst/phi_out_reg[3]_LDC_i_1__13. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[0]_LDC_i_1__14_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[0]_LDC_i_1__14/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[0]_LDC_i_1__14. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[1]_LDC_i_1__14_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[1]_LDC_i_1__14/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[1]_LDC_i_1__14. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[2]_LDC_i_1__14_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[2]_LDC_i_1__14/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[2]_LDC_i_1__14. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[3]_LDC_i_1__14_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[3]_LDC_i_1__14/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[15].phase_reg_inst/phi_out_reg[3]_LDC_i_1__14. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#29 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[0]_LDC_i_1__15_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[0]_LDC_i_1__15/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[0]_LDC_i_1__15. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#30 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[1]_LDC_i_1__15_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[1]_LDC_i_1__15/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[1]_LDC_i_1__15. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#31 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[2]_LDC_i_1__15_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[2]_LDC_i_1__15/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[2]_LDC_i_1__15. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#32 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[3]_LDC_i_1__15_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[3]_LDC_i_1__15/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[16].phase_reg_inst/phi_out_reg[3]_LDC_i_1__15. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#33 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[0]_LDC_i_1__16_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[0]_LDC_i_1__16/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[0]_LDC_i_1__16. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#34 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[1]_LDC_i_1__16_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[1]_LDC_i_1__16/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[1]_LDC_i_1__16. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#35 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[2]_LDC_i_1__16_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[2]_LDC_i_1__16/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[2]_LDC_i_1__16. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#36 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[3]_LDC_i_1__16_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[3]_LDC_i_1__16/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[17].phase_reg_inst/phi_out_reg[3]_LDC_i_1__16. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#37 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[0]_LDC_i_1__17_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[0]_LDC_i_1__17/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[0]_LDC_i_1__17. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#38 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[1]_LDC_i_1__17_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[1]_LDC_i_1__17/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[1]_LDC_i_1__17. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#39 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[2]_LDC_i_1__17_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[2]_LDC_i_1__17/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[2]_LDC_i_1__17. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#40 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[3]_LDC_i_1__17_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[3]_LDC_i_1__17/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[18].phase_reg_inst/phi_out_reg[3]_LDC_i_1__17. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#41 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[0]_LDC_i_1__18_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[0]_LDC_i_1__18/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[0]_LDC_i_1__18. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#42 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[1]_LDC_i_1__18_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[1]_LDC_i_1__18/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[1]_LDC_i_1__18. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#43 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[2]_LDC_i_1__18_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[2]_LDC_i_1__18/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[2]_LDC_i_1__18. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#44 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[3]_LDC_i_1__18_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[3]_LDC_i_1__18/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[19].phase_reg_inst/phi_out_reg[3]_LDC_i_1__18. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#45 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[0]_LDC_i_1__0_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[0]_LDC_i_1__0/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[0]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#46 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[1]_LDC_i_1__0_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[1]_LDC_i_1__0/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[1]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#47 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[2]_LDC_i_1__0_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[2]_LDC_i_1__0/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[2]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#48 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[3]_LDC_i_1__0_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[3]_LDC_i_1__0/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[1].phase_reg_inst/phi_out_reg[3]_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#49 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[0]_LDC_i_1__19_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[0]_LDC_i_1__19/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[0]_LDC_i_1__19. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#50 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[1]_LDC_i_1__19_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[1]_LDC_i_1__19/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[1]_LDC_i_1__19. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#51 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[2]_LDC_i_1__19_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[2]_LDC_i_1__19/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[2]_LDC_i_1__19. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#52 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[3]_LDC_i_1__19_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[3]_LDC_i_1__19/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[20].phase_reg_inst/phi_out_reg[3]_LDC_i_1__19. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#53 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[0]_LDC_i_1__20_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[0]_LDC_i_1__20/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[0]_LDC_i_1__20. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#54 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[1]_LDC_i_1__20_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[1]_LDC_i_1__20/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[1]_LDC_i_1__20. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#55 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[2]_LDC_i_1__20_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[2]_LDC_i_1__20/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[2]_LDC_i_1__20. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#56 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[3]_LDC_i_1__20_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[3]_LDC_i_1__20/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[21].phase_reg_inst/phi_out_reg[3]_LDC_i_1__20. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#57 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[0]_LDC_i_1__21_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[0]_LDC_i_1__21/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[0]_LDC_i_1__21. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#58 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[1]_LDC_i_1__21_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[1]_LDC_i_1__21/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[1]_LDC_i_1__21. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#59 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[2]_LDC_i_1__21_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[2]_LDC_i_1__21/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[2]_LDC_i_1__21. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#60 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[3]_LDC_i_1__21_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[3]_LDC_i_1__21/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[22].phase_reg_inst/phi_out_reg[3]_LDC_i_1__21. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#61 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[0]_LDC_i_1__22_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[0]_LDC_i_1__22/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[0]_LDC_i_1__22. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#62 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[1]_LDC_i_1__22_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[1]_LDC_i_1__22/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[1]_LDC_i_1__22. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#63 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[2]_LDC_i_1__22_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[2]_LDC_i_1__22/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[2]_LDC_i_1__22. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#64 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[3]_LDC_i_1__22_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[3]_LDC_i_1__22/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[23].phase_reg_inst/phi_out_reg[3]_LDC_i_1__22. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#65 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[0]_LDC_i_1__23_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[0]_LDC_i_1__23/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[0]_LDC_i_1__23. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#66 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[1]_LDC_i_1__23_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[1]_LDC_i_1__23/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[1]_LDC_i_1__23. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#67 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[2]_LDC_i_1__23_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[2]_LDC_i_1__23/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[2]_LDC_i_1__23. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#68 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[3]_LDC_i_1__23_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[3]_LDC_i_1__23/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[24].phase_reg_inst/phi_out_reg[3]_LDC_i_1__23. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#69 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[0]_LDC_i_1__24_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[0]_LDC_i_1__24/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[0]_LDC_i_1__24. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#70 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[1]_LDC_i_1__24_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[1]_LDC_i_1__24/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[1]_LDC_i_1__24. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#71 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[2]_LDC_i_1__24_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[2]_LDC_i_1__24/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[2]_LDC_i_1__24. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#72 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[3]_LDC_i_1__24_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[3]_LDC_i_1__24/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[25].phase_reg_inst/phi_out_reg[3]_LDC_i_1__24. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#73 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[0]_LDC_i_1__25_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[0]_LDC_i_1__25/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[0]_LDC_i_1__25. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#74 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[1]_LDC_i_1__25_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[1]_LDC_i_1__25/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[1]_LDC_i_1__25. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#75 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[2]_LDC_i_1__25_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[2]_LDC_i_1__25/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[2]_LDC_i_1__25. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#76 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[3]_LDC_i_1__25_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[3]_LDC_i_1__25/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[26].phase_reg_inst/phi_out_reg[3]_LDC_i_1__25. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#77 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[0]_LDC_i_1__26_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[0]_LDC_i_1__26/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[0]_LDC_i_1__26. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#78 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[1]_LDC_i_1__26_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[1]_LDC_i_1__26/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[1]_LDC_i_1__26. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#79 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[2]_LDC_i_1__26_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[2]_LDC_i_1__26/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[2]_LDC_i_1__26. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#80 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[3]_LDC_i_1__26_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[3]_LDC_i_1__26/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[27].phase_reg_inst/phi_out_reg[3]_LDC_i_1__26. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#81 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[0]_LDC_i_1__27_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[0]_LDC_i_1__27/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[0]_LDC_i_1__27. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#82 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[1]_LDC_i_1__27_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[1]_LDC_i_1__27/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[1]_LDC_i_1__27. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#83 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[2]_LDC_i_1__27_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[2]_LDC_i_1__27/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[2]_LDC_i_1__27. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#84 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[3]_LDC_i_1__27_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[3]_LDC_i_1__27/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[28].phase_reg_inst/phi_out_reg[3]_LDC_i_1__27. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#85 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[0]_LDC_i_1__28_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[0]_LDC_i_1__28/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[0]_LDC_i_1__28. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#86 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[1]_LDC_i_1__28_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[1]_LDC_i_1__28/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[1]_LDC_i_1__28. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#87 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[2]_LDC_i_1__28_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[2]_LDC_i_1__28/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[2]_LDC_i_1__28. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#88 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[3]_LDC_i_1__28_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[3]_LDC_i_1__28/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[29].phase_reg_inst/phi_out_reg[3]_LDC_i_1__28. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#89 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[0]_LDC_i_1__1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[0]_LDC_i_1__1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[0]_LDC_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#90 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[1]_LDC_i_1__1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[1]_LDC_i_1__1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[1]_LDC_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#91 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[2]_LDC_i_1__1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[2]_LDC_i_1__1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[2]_LDC_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#92 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[3]_LDC_i_1__1_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[3]_LDC_i_1__1/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[2].phase_reg_inst/phi_out_reg[3]_LDC_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#93 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[0]_LDC_i_1__29_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[0]_LDC_i_1__29/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[0]_LDC_i_1__29. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#94 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[1]_LDC_i_1__29_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[1]_LDC_i_1__29/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[1]_LDC_i_1__29. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#95 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[2]_LDC_i_1__29_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[2]_LDC_i_1__29/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[2]_LDC_i_1__29. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#96 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[3]_LDC_i_1__29_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[3]_LDC_i_1__29/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[30].phase_reg_inst/phi_out_reg[3]_LDC_i_1__29. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#97 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[0]_LDC_i_1__30_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[0]_LDC_i_1__30/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[0]_LDC_i_1__30. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#98 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[1]_LDC_i_1__30_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[1]_LDC_i_1__30/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[1]_LDC_i_1__30. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#99 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[2]_LDC_i_1__30_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[2]_LDC_i_1__30/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[2]_LDC_i_1__30. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#100 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[3]_LDC_i_1__30_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[3]_LDC_i_1__30/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[31].phase_reg_inst/phi_out_reg[3]_LDC_i_1__30. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#101 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[0]_LDC_i_1__31_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[0]_LDC_i_1__31/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[0]_LDC_i_1__31. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#102 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[1]_LDC_i_1__31_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[1]_LDC_i_1__31/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[1]_LDC_i_1__31. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#103 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[2]_LDC_i_1__31_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[2]_LDC_i_1__31/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[2]_LDC_i_1__31. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#104 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[3]_LDC_i_1__31_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[3]_LDC_i_1__31/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[32].phase_reg_inst/phi_out_reg[3]_LDC_i_1__31. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#105 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[0]_LDC_i_1__32_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[0]_LDC_i_1__32/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[0]_LDC_i_1__32. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#106 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[1]_LDC_i_1__32_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[1]_LDC_i_1__32/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[1]_LDC_i_1__32. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#107 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[2]_LDC_i_1__32_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[2]_LDC_i_1__32/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[2]_LDC_i_1__32. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#108 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[3]_LDC_i_1__32_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[3]_LDC_i_1__32/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[33].phase_reg_inst/phi_out_reg[3]_LDC_i_1__32. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#109 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[0]_LDC_i_1__33_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[0]_LDC_i_1__33/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[0]_LDC_i_1__33. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#110 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[1]_LDC_i_1__33_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[1]_LDC_i_1__33/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[1]_LDC_i_1__33. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#111 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[2]_LDC_i_1__33_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[2]_LDC_i_1__33/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[2]_LDC_i_1__33. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#112 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[3]_LDC_i_1__33_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[3]_LDC_i_1__33/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[34].phase_reg_inst/phi_out_reg[3]_LDC_i_1__33. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#113 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[0]_LDC_i_1__34_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[0]_LDC_i_1__34/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[0]_LDC_i_1__34. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#114 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[1]_LDC_i_1__34_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[1]_LDC_i_1__34/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[1]_LDC_i_1__34. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#115 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[2]_LDC_i_1__34_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[2]_LDC_i_1__34/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[2]_LDC_i_1__34. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#116 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[3]_LDC_i_1__34_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[3]_LDC_i_1__34/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[35].phase_reg_inst/phi_out_reg[3]_LDC_i_1__34. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#117 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[0]_LDC_i_1__35_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[0]_LDC_i_1__35/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[0]_LDC_i_1__35. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#118 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[1]_LDC_i_1__35_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[1]_LDC_i_1__35/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[1]_LDC_i_1__35. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#119 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[2]_LDC_i_1__35_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[2]_LDC_i_1__35/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[2]_LDC_i_1__35. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#120 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[3]_LDC_i_1__35_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[3]_LDC_i_1__35/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[36].phase_reg_inst/phi_out_reg[3]_LDC_i_1__35. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#121 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[0]_LDC_i_1__36_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[0]_LDC_i_1__36/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[0]_LDC_i_1__36. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#122 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[1]_LDC_i_1__36_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[1]_LDC_i_1__36/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[1]_LDC_i_1__36. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#123 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[2]_LDC_i_1__36_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[2]_LDC_i_1__36/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[2]_LDC_i_1__36. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#124 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[3]_LDC_i_1__36_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[3]_LDC_i_1__36/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[37].phase_reg_inst/phi_out_reg[3]_LDC_i_1__36. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#125 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[0]_LDC_i_1__37_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[0]_LDC_i_1__37/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[0]_LDC_i_1__37. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#126 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[1]_LDC_i_1__37_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[1]_LDC_i_1__37/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[1]_LDC_i_1__37. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#127 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[2]_LDC_i_1__37_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[2]_LDC_i_1__37/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[2]_LDC_i_1__37. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#128 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[3]_LDC_i_1__37_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[3]_LDC_i_1__37/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[38].phase_reg_inst/phi_out_reg[3]_LDC_i_1__37. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#129 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[0]_LDC_i_1__38_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[0]_LDC_i_1__38/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[0]_LDC_i_1__38. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#130 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[1]_LDC_i_1__38_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[1]_LDC_i_1__38/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[1]_LDC_i_1__38. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#131 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[2]_LDC_i_1__38_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[2]_LDC_i_1__38/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[2]_LDC_i_1__38. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#132 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[3]_LDC_i_1__38_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[3]_LDC_i_1__38/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[39].phase_reg_inst/phi_out_reg[3]_LDC_i_1__38. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#133 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[0]_LDC_i_1__2_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[0]_LDC_i_1__2/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[0]_LDC_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#134 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[1]_LDC_i_1__2_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[1]_LDC_i_1__2/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[1]_LDC_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#135 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[2]_LDC_i_1__2_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[2]_LDC_i_1__2/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[2]_LDC_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#136 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[3]_LDC_i_1__2_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[3]_LDC_i_1__2/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[3].phase_reg_inst/phi_out_reg[3]_LDC_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#137 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[0]_LDC_i_1__3_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[0]_LDC_i_1__3/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[0]_LDC_i_1__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#138 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[1]_LDC_i_1__3_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[1]_LDC_i_1__3/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[1]_LDC_i_1__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#139 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[2]_LDC_i_1__3_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[2]_LDC_i_1__3/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[2]_LDC_i_1__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#140 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[3]_LDC_i_1__3_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[3]_LDC_i_1__3/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[4].phase_reg_inst/phi_out_reg[3]_LDC_i_1__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#141 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[0]_LDC_i_1__4_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[0]_LDC_i_1__4/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[0]_LDC_i_1__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#142 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[1]_LDC_i_1__4_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[1]_LDC_i_1__4/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[1]_LDC_i_1__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#143 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[2]_LDC_i_1__4_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[2]_LDC_i_1__4/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[2]_LDC_i_1__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#144 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[3]_LDC_i_1__4_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[3]_LDC_i_1__4/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[5].phase_reg_inst/phi_out_reg[3]_LDC_i_1__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#145 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[0]_LDC_i_1__5_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[0]_LDC_i_1__5/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[0]_LDC_i_1__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#146 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[1]_LDC_i_1__5_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[1]_LDC_i_1__5/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[1]_LDC_i_1__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#147 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[2]_LDC_i_1__5_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[2]_LDC_i_1__5/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[2]_LDC_i_1__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#148 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[3]_LDC_i_1__5_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[3]_LDC_i_1__5/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[6].phase_reg_inst/phi_out_reg[3]_LDC_i_1__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#149 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[0]_LDC_i_1__6_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[0]_LDC_i_1__6/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[0]_LDC_i_1__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#150 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[1]_LDC_i_1__6_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[1]_LDC_i_1__6/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[1]_LDC_i_1__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#151 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[2]_LDC_i_1__6_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[2]_LDC_i_1__6/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[2]_LDC_i_1__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#152 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[3]_LDC_i_1__6_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[3]_LDC_i_1__6/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[7].phase_reg_inst/phi_out_reg[3]_LDC_i_1__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#153 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[0]_LDC_i_1__7_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[0]_LDC_i_1__7/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[0]_LDC_i_1__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#154 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[1]_LDC_i_1__7_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[1]_LDC_i_1__7/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[1]_LDC_i_1__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#155 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[2]_LDC_i_1__7_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[2]_LDC_i_1__7/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[2]_LDC_i_1__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#156 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[3]_LDC_i_1__7_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[3]_LDC_i_1__7/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[8].phase_reg_inst/phi_out_reg[3]_LDC_i_1__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#157 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[0]_LDC_i_1__8_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[0]_LDC_i_1__8/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[0]_LDC_i_1__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#158 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[1]_LDC_i_1__8_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[1]_LDC_i_1__8/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[1]_LDC_i_1__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#159 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[2]_LDC_i_1__8_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[2]_LDC_i_1__8/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[2]_LDC_i_1__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#160 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[3]_LDC_i_1__8_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[3]_LDC_i_1__8/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_1/gen_align_reg[9].phase_reg_inst/phi_out_reg[3]_LDC_i_1__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#161 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[0]_LDC_i_1__46_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[0]_LDC_i_1__46/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[0]_LDC_i_1__46. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#162 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[1]_LDC_i_1__46_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[1]_LDC_i_1__46/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[1]_LDC_i_1__46. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#163 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[2]_LDC_i_1__46_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[2]_LDC_i_1__46/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[2]_LDC_i_1__46. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#164 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[3]_LDC_i_1__46_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[3]_LDC_i_1__46/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[0].phase_reg_inst/phi_out_reg[3]_LDC_i_1__46. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#165 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[0]_LDC_i_1__45_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[0]_LDC_i_1__45/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[0]_LDC_i_1__45. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#166 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[1]_LDC_i_1__45_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[1]_LDC_i_1__45/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[1]_LDC_i_1__45. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#167 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[2]_LDC_i_1__45_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[2]_LDC_i_1__45/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[2]_LDC_i_1__45. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#168 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[3]_LDC_i_1__45_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[3]_LDC_i_1__45/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[1].phase_reg_inst/phi_out_reg[3]_LDC_i_1__45. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#169 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[0]_LDC_i_1__44_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[0]_LDC_i_1__44/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[0]_LDC_i_1__44. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#170 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[1]_LDC_i_1__44_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[1]_LDC_i_1__44/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[1]_LDC_i_1__44. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#171 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[2]_LDC_i_1__44_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[2]_LDC_i_1__44/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[2]_LDC_i_1__44. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#172 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[3]_LDC_i_1__44_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[3]_LDC_i_1__44/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[2].phase_reg_inst/phi_out_reg[3]_LDC_i_1__44. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#173 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[0]_LDC_i_1__43_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[0]_LDC_i_1__43/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[0]_LDC_i_1__43. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#174 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[1]_LDC_i_1__43_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[1]_LDC_i_1__43/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[1]_LDC_i_1__43. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#175 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[2]_LDC_i_1__43_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[2]_LDC_i_1__43/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[2]_LDC_i_1__43. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#176 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[3]_LDC_i_1__43_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[3]_LDC_i_1__43/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[3].phase_reg_inst/phi_out_reg[3]_LDC_i_1__43. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#177 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[0]_LDC_i_1__42_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[0]_LDC_i_1__42/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[0]_LDC_i_1__42. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#178 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[1]_LDC_i_1__42_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[1]_LDC_i_1__42/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[1]_LDC_i_1__42. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#179 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[2]_LDC_i_1__42_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[2]_LDC_i_1__42/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[2]_LDC_i_1__42. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#180 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[3]_LDC_i_1__42_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[3]_LDC_i_1__42/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[4].phase_reg_inst/phi_out_reg[3]_LDC_i_1__42. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#181 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[0]_LDC_i_1__41_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[0]_LDC_i_1__41/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[0]_LDC_i_1__41. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#182 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[1]_LDC_i_1__41_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[1]_LDC_i_1__41/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[1]_LDC_i_1__41. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#183 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[2]_LDC_i_1__41_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[2]_LDC_i_1__41/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[2]_LDC_i_1__41. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#184 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[3]_LDC_i_1__41_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[3]_LDC_i_1__41/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[5].phase_reg_inst/phi_out_reg[3]_LDC_i_1__41. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#185 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[0]_LDC_i_1__40_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[0]_LDC_i_1__40/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[0]_LDC_i_1__40. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#186 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[1]_LDC_i_1__40_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[1]_LDC_i_1__40/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[1]_LDC_i_1__40. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#187 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[2]_LDC_i_1__40_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[2]_LDC_i_1__40/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[2]_LDC_i_1__40. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#188 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[3]_LDC_i_1__40_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[3]_LDC_i_1__40/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[6].phase_reg_inst/phi_out_reg[3]_LDC_i_1__40. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#189 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[0]_LDC_i_1__39_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[0]_LDC_i_1__39/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[0]_LDC_i_1__39. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#190 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[1]_LDC_i_1__39_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[1]_LDC_i_1__39/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[1]_LDC_i_1__39. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#191 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[2]_LDC_i_1__39_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[2]_LDC_i_1__39/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[2]_LDC_i_1__39. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#192 Warning
+Gated clock check  
+Net design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[3]_LDC_i_1__39_n_0 is a gated clock net sourced by a combinational pin design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[3]_LDC_i_1__39/O, cell design_2_i/top_onn_system_wrapp_0/inst/riya/onn_2/gen_align_reg[7].phase_reg_inst/phi_out_reg[3]_LDC_i_1__39. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+35 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_2_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m00_nodes/m00_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m01_nodes/m01_w_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m03_nodes/m03_ar_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m03_nodes/m03_b_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m03_nodes/m03_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m04_nodes/m04_ar_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m05_nodes/m05_ar_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m05_nodes/m05_aw_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m05_nodes/m05_b_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m05_nodes/m05_r_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/m05_nodes/m05_w_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/mi_handler_m_sc_areset_pipe,
+design_2_i/axi_smc/inst/s00_nodes/s00_r_node/inst/mi_handler_m_sc_areset_pipe
+ (the first 15 of 35 listed nets/buses).
+Related violations: <none>
+
+

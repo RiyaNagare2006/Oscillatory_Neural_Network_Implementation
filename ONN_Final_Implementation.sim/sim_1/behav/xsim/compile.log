@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/clk_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/clock_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/compute_nin.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_nin
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/compute_nin_2ONN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module compute_nin_2ONN
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/edge_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edge_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/nearest_40bit_matcher.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nearest_40bit_matcher
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/nearest_8bit_matcher.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nearest_8bit_matcher
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/onn_system_1ONN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onn_system_1ONN
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/onn_system_2ONN.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onn_system_2ONN
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/oscillator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oscillator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/phase_alignment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module phase_alignment
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/phase_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module phase_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/top_onn_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_onn_system
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/new/top_onn_system_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_onn_system_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sim_1/new/top_onn_system_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_onn_system_tb
