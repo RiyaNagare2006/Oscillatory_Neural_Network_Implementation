@@ -77,4 +77,5 @@ Pattern C         →   Vector 3          →   Left
 ---
 
 ## References
-[1] Reference research paper (to be inserted).
+[1] https://hal.science/hal-04007886/ 
+[2] https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9967581
