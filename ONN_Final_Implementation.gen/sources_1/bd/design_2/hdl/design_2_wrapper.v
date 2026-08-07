@@ -2,7 +2,7 @@
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-//Date        : Fri Jul  4 09:50:55 2025
+//Date        : Sun Oct 12 16:44:47 2025
 //Host        : LAPTOP-JP12RQ9T running 64-bit major release  (build 9200)
 //Command     : generate_target design_2_wrapper.bd
 //Design      : design_2_wrapper
@@ -33,6 +33,7 @@ module design_2_wrapper
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
     direction_0,
+    gpio_io_o_0,
     slow_clk_0);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
@@ -56,6 +57,7 @@ module design_2_wrapper
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
   output [1:0]direction_0;
+  output [3:0]gpio_io_o_0;
   output slow_clk_0;
 
   wire [14:0]DDR_addr;
@@ -80,6 +82,7 @@ module design_2_wrapper
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
   wire [1:0]direction_0;
+  wire [3:0]gpio_io_o_0;
   wire slow_clk_0;
 
   design_2 design_2_i
@@ -105,5 +108,6 @@ module design_2_wrapper
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
         .direction_0(direction_0),
+        .gpio_io_o_0(gpio_io_o_0),
         .slow_clk_0(slow_clk_0));
 endmodule

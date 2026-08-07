@@ -71,7 +71,7 @@
 #define XPAR_XEMACPS_0_INTERRUPT_PARENT 0xf8f01000
 #define XPAR_XEMACPS_0_PHY_MODE "rgmii-id"
 
-#define XPAR_XGPIO_NUM_INSTANCES 6
+#define XPAR_XGPIO_NUM_INSTANCES 7
 
 /* Definitions for peripheral AXI_GPIO_0 */
 #define XPAR_AXI_GPIO_0_COMPATIBLE "xlnx,axi-gpio-2.0"
@@ -168,6 +168,22 @@
 #define XPAR_XGPIO_5_GPIO_WIDTH 0x1
 #define XPAR_XGPIO_5_INTERRUPT_PRESENT 0x0
 #define XPAR_XGPIO_5_IS_DUAL 0x0
+
+/* Definitions for peripheral AXI_GPIO_6 */
+#define XPAR_AXI_GPIO_6_COMPATIBLE "xlnx,axi-gpio-2.0"
+#define XPAR_AXI_GPIO_6_BASEADDR 0x41260000
+#define XPAR_AXI_GPIO_6_HIGHADDR 0x4126ffff
+#define XPAR_AXI_GPIO_6_INTERRUPT_PRESENT 0x0
+#define XPAR_AXI_GPIO_6_IS_DUAL 0x0
+#define XPAR_AXI_GPIO_6_GPIO_WIDTH 0x4
+
+/* Canonical definitions for peripheral AXI_GPIO_6 */
+#define XPAR_XGPIO_6_BASEADDR 0x41260000
+#define XPAR_XGPIO_6_HIGHADDR 0x4126ffff
+#define XPAR_XGPIO_6_COMPATIBLE "xlnx,axi-gpio-2.0"
+#define XPAR_XGPIO_6_GPIO_WIDTH 0x4
+#define XPAR_XGPIO_6_INTERRUPT_PRESENT 0x0
+#define XPAR_XGPIO_6_IS_DUAL 0x0
 
 #define XPAR_XGPIOPS_NUM_INSTANCES 1
 

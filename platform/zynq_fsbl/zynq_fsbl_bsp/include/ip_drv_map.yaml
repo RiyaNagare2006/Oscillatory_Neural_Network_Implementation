@@ -16,6 +16,9 @@ axi_gpio_4:
 axi_gpio_5:
 - axi_gpio
 - gpio
+axi_gpio_6:
+- axi_gpio
+- gpio
 ps7_afi_0:
 - ps7_afi
 - None

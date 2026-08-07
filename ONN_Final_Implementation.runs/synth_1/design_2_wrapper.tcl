@@ -56,9 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 set_param general.usePosixSpawnForFork 1
-set_param bd.open.in_stealth_mode 1
 set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
@@ -86,7 +84,7 @@ read_mem {
   C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/imports/Downloads/maybe_final.mem
   C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/imports/Downloads/pattern_2ONN.mem
 }
-read_verilog -library xil_defaultlib C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v
+read_verilog -library xil_defaultlib c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v
 add_files C:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.srcs/sources_1/bd/design_2/design_2.bd
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_processing_system7_0_0/design_2_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_gpio_0_0/design_2_axi_gpio_0_0_board.xdc]
@@ -159,10 +157,18 @@ set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Fin
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_64/bd_2b0d_m05awn_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_65/bd_2b0d_m05wn_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_66/bd_2b0d_m05bn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_68/bd_2b0d_m06s2a_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_69/bd_2b0d_m06arn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_70/bd_2b0d_m06rn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_71/bd_2b0d_m06awn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_72/bd_2b0d_m06wn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/bd_0/ip/ip_73/bd_2b0d_m06bn_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_smc_1/smartconnect.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_rst_ps7_0_50M_1/design_2_rst_ps7_0_50M_1_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_rst_ps7_0_50M_1/design_2_rst_ps7_0_50M_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_gpio_6_0/design_2_axi_gpio_6_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/ip/design_2_axi_gpio_6_0/design_2_axi_gpio_6_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/riyan/ONN_Final_Implementation/ONN_Final_Implementation.gen/sources_1/bd/design_2/design_2_ooc.xdc]
 
 OPTRACE "Adding files" END { }

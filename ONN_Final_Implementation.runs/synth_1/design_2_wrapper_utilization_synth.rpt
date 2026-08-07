@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Sun Aug 24 16:19:03 2025
+| Date         : Sun Oct 12 16:48:16 2025
 | Host         : LAPTOP-JP12RQ9T running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_2_wrapper_utilization_synth.rpt -pb design_2_wrapper_utilization_synth.pb
 | Design       : design_2_wrapper
@@ -93,7 +93,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |    3 |     0 |          0 |       125 |  2.40 |
+| Bonded IOB                  |    7 |     0 |          0 |       125 |  5.60 |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |          0 |       130 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         4 |  0.00 |
@@ -149,7 +149,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| OBUF     |    3 |                  IO |
+| OBUF     |    7 |                  IO |
 +----------+------+---------------------+
 
 
@@ -163,6 +163,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | design_2_rst_ps7_0_50M_1          |    1 |
 | design_2_processing_system7_0_0   |    1 |
 | design_2_axi_smc_1                |    1 |
+| design_2_axi_gpio_6_0             |    1 |
 | design_2_axi_gpio_5_0             |    1 |
 | design_2_axi_gpio_4_0             |    1 |
 | design_2_axi_gpio_3_0             |    1 |

@@ -176,6 +176,10 @@ drv_info:
     driver: gpio
     ip_name: axi_gpio
     path: E:\riyan\2025.1\Vitis\data\embeddedsw\XilinxProcessorIPLib\drivers\gpio_v4_12
+  axi_gpio_6:
+    driver: gpio
+    ip_name: axi_gpio
+    path: E:\riyan\2025.1\Vitis\data\embeddedsw\XilinxProcessorIPLib\drivers\gpio_v4_12
   ps7_afi_0: None
   ps7_afi_1: None
   ps7_afi_2: None

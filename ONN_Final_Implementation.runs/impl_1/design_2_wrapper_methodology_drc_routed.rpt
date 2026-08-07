@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Sun Aug 24 16:22:16 2025
+| Date         : Sun Oct 12 16:52:58 2025
 | Host         : LAPTOP-JP12RQ9T running 64-bit major release  (build 9200)
 | Command      : report_methodology -file design_2_wrapper_methodology_drc_routed.rpt -pb design_2_wrapper_methodology_drc_routed.pb -rpx design_2_wrapper_methodology_drc_routed.rpx
 | Design       : design_2_wrapper
@@ -23,13 +23,13 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max checks: <unlimited>
-             Checks found: 1581
+             Checks found: 1585
 +-----------+------------------+--------------------------------+--------+
 | Rule      | Severity         | Description                    | Checks |
 +-----------+------------------+--------------------------------+--------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell    | 1000   |
 | LUTAR-1   | Warning          | LUT drives async reset alert   | 385    |
-| TIMING-18 | Warning          | Missing input or output delay  | 3      |
+| TIMING-18 | Warning          | Missing input or output delay  | 7      |
 | TIMING-20 | Warning          | Non-clocked latch              | 192    |
 | LATCH-1   | Advisory         | Existing latches in the design | 1      |
 +-----------+------------------+--------------------------------+--------+
@@ -7179,6 +7179,26 @@ An output delay is missing on direction_0[1] relative to the rising and/or falli
 Related violations: <none>
 
 TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on gpio_io_o_0[0] relative to the rising and/or falling clock edge(s) of clk_fpga_0.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on gpio_io_o_0[1] relative to the rising and/or falling clock edge(s) of clk_fpga_0.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on gpio_io_o_0[2] relative to the rising and/or falling clock edge(s) of clk_fpga_0.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on gpio_io_o_0[3] relative to the rising and/or falling clock edge(s) of clk_fpga_0.
+Related violations: <none>
+
+TIMING-18#7 Warning
 Missing input or output delay  
 An output delay is missing on slow_clk_0 relative to the rising and/or falling clock edge(s) of clk_fpga_0.
 Related violations: <none>

@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xF0A404357F52BD89",
+      "boundary_crc": "0x638611352F01FF61",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../ONN_Final_Implementation.gen/sources_1/bd/design_2",
       "name": "design_2",
@@ -20,7 +20,8 @@
       "axi_gpio_5": "",
       "axi_smc": "",
       "rst_ps7_0_50M": "",
-      "top_onn_system_wrapp_0": ""
+      "top_onn_system_wrapp_0": "",
+      "axi_gpio_6": ""
     },
     "interface_ports": {
       "DDR": {
@@ -222,6 +223,11 @@
       "direction_0": {
         "direction": "O",
         "left": "1",
+        "right": "0"
+      },
+      "gpio_io_o_0": {
+        "direction": "O",
+        "left": "3",
         "right": "0"
       }
     },
@@ -1515,7 +1521,7 @@
         "has_run_ip_tcl": "true",
         "parameters": {
           "NUM_MI": {
-            "value": "6"
+            "value": "7"
           },
           "NUM_SI": {
             "value": "1"
@@ -1540,11 +1546,12 @@
               "M02_AXI",
               "M03_AXI",
               "M04_AXI",
-              "M05_AXI"
+              "M05_AXI",
+              "M06_AXI"
             ],
             "bd_attributes": {
               "BRIDGES": {
-                "value": "M00_AXI:M01_AXI:M02_AXI:M03_AXI:M04_AXI:M05_AXI",
+                "value": "M00_AXI:M01_AXI:M02_AXI:M03_AXI:M04_AXI:M05_AXI:M06_AXI",
                 "value_src": "auto"
               },
               "TYPE": {
@@ -1738,6 +1745,37 @@
                 "value_src": "default"
               }
             }
+          },
+          "M06_AXI": {
+            "mode": "Master",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "parameters": {
+              "NUM_READ_OUTSTANDING": {
+                "value": "8"
+              },
+              "NUM_READ_THREADS": {
+                "value": "1"
+              },
+              "NUM_WRITE_OUTSTANDING": {
+                "value": "8"
+              },
+              "NUM_WRITE_THREADS": {
+                "value": "1"
+              },
+              "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "WUSER_BITS_PER_BYTE": {
+                "value": "0"
+              }
+            },
+            "bd_attributes": {
+              "TYPE": {
+                "value": "interior",
+                "value_src": "default"
+              }
+            }
           }
         }
       },
@@ -1815,6 +1853,22 @@
             "right": "0"
           }
         }
+      },
+      "axi_gpio_6": {
+        "vlnv": "xilinx.com:ip:axi_gpio:2.0",
+        "ip_revision": "37",
+        "xci_name": "design_2_axi_gpio_6_0",
+        "xci_path": "ip\\design_2_axi_gpio_6_0\\design_2_axi_gpio_6_0.xci",
+        "inst_hier_path": "axi_gpio_6",
+        "has_run_ip_tcl": "true",
+        "parameters": {
+          "C_ALL_OUTPUTS": {
+            "value": "1"
+          },
+          "C_GPIO_WIDTH": {
+            "value": "4"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -1852,6 +1906,12 @@
         "interface_ports": [
           "axi_smc/M05_AXI",
           "axi_gpio_5/S_AXI"
+        ]
+      },
+      "axi_smc_M06_AXI": {
+        "interface_ports": [
+          "axi_smc/M06_AXI",
+          "axi_gpio_6/S_AXI"
         ]
       },
       "processing_system7_0_DDR": {
@@ -1910,6 +1970,12 @@
           "top_onn_system_wrapp_0/reset"
         ]
       },
+      "axi_gpio_6_gpio_io_o": {
+        "ports": [
+          "axi_gpio_6/gpio_io_o",
+          "gpio_io_o_0"
+        ]
+      },
       "processing_system7_0_FCLK_CLK0": {
         "ports": [
           "processing_system7_0/FCLK_CLK0",
@@ -1922,7 +1988,8 @@
           "axi_gpio_3/s_axi_aclk",
           "axi_gpio_4/s_axi_aclk",
           "axi_gpio_5/s_axi_aclk",
-          "top_onn_system_wrapp_0/clk"
+          "top_onn_system_wrapp_0/clk",
+          "axi_gpio_6/s_axi_aclk"
         ]
       },
       "processing_system7_0_FCLK_RESET0_N": {
@@ -1940,7 +2007,8 @@
           "axi_gpio_2/s_axi_aresetn",
           "axi_gpio_3/s_axi_aresetn",
           "axi_gpio_4/s_axi_aresetn",
-          "axi_gpio_5/s_axi_aresetn"
+          "axi_gpio_5/s_axi_aresetn",
+          "axi_gpio_6/s_axi_aresetn"
         ]
       },
       "top_onn_system_wrapp_0_direction": {
@@ -1989,6 +2057,11 @@
               "SEG_axi_gpio_5_Reg": {
                 "address_block": "/axi_gpio_5/S_AXI/Reg",
                 "offset": "0x41250000",
+                "range": "64K"
+              },
+              "SEG_axi_gpio_6_Reg": {
+                "address_block": "/axi_gpio_6/S_AXI/Reg",
+                "offset": "0x41260000",
                 "range": "64K"
               }
             }

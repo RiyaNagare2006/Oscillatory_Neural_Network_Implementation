@@ -1,21 +1,20 @@
-# Ignore build output directory
-/build
-/export
+# Vivado temporary directories
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
 
-# Ignore object files and dependent files
-.o
-.d
+# Vivado log and journal files
+*.log
+*.jou
+*.str
+vivado.xml
 
-#Ignore logs folder and log files
-/logs
-.log
+# Vitis/Software workspace (if you don't want to track hardware platform metadata)
+ONN_workspace/
+platform/
 
-#Ignore lock files
-.lock
-
-.bin
-.pdi
-.vitisWorkspace.json
-
-_ide/logs
-_ide/.wsdata
+# Duplicate/backup archives in your folder
+*.zip

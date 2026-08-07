@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1756032502">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1760267700">
+  <File Type="PA-TCL" Name="design_2_wrapper.tcl"/>
   <File Type="REPORTS-TCL" Name="design_2_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="design_2_wrapper.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="design_2_wrapper_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="design_2_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="design_2_wrapper_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="design_2_wrapper.tcl"/>
-  <File Type="RDS-RDS" Name="design_2_wrapper.vds"/>
   <File Type="RDS-DCP" Name="design_2_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="design_2_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="design_2_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/clk_divider.v">
@@ -189,6 +192,8 @@
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="design_2_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_axi_smc_1"/>
   <BlockFileSet Type="BlockSrcs" Name="design_2_rst_ps7_0_50M_1"/>
   <BlockFileSet Type="BlockSrcs" Name="design_2_top_onn_system_wrapp_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_2_axi_gpio_6_0"/>
 </GenRun>
