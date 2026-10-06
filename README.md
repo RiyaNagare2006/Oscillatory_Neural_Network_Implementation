@@ -1,4 +1,4 @@
-# Obstacle Avoidance Mobile Robot using Oscillatory Neural Networks (ONNs)
+# Obstacle Avoidance using Oscillatory Neural Networks (ONNs)
 
 ##  Introduction
 ### Motivation
